@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastre-se - Meus recados</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+  <main>
+    <section>
+      <form id="form-cadastro">
+        <h1>Cadastre-se</h1>
+        <input type="text" class="input-default" name="nome" id="nome" placeholder="Nome">
+
+        <input class="input-default" type="email" name="email" id="email" placeholder="E-mail">
+
+        <input class="input-default" type="password" name="senha" id="senha" placeholder="Senha">
+
+        <input class="input-default" type="password" name="re-senha" id="re-senha" placeholder="Repetir Senha">
+
+        <input class="input-default" type="submit" value="confirmar">
+      </form>
+      <p class="texto">
+        Já possui conta?
+        <a href="./index.html">Acesse!</a>
+      </p>
+    </section>
+  </main>
+  <!-- cdn axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- config baseURL axios -->
+<script src="./js/config-axios.js"></script>
+  <!-- nossa logica de manipulação da dom -->
+  <script src="./js/cadastrar.js"></script>
+</body>
+</html>
